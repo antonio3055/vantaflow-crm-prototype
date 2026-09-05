@@ -53,6 +53,39 @@ body{font-size:12.5px;line-height:1.35}
 .btn,.icon-btn,.filter,.tiny-action{letter-spacing:-.01em}
 input,textarea,select{border-width:.5px}
 .btn.outline{border-width:.5px}
+
+/* VantaFlow final polish: 4px rhythm, restrained depth, selective accents */
+:root{--violet:#7c3aed;--slate-accent:#64748b;--shadow:0 2px 10px rgba(37,38,43,.045);--shadow-float:0 14px 36px rgba(37,38,43,.13)}
+.content{padding:8px 16px 12px}
+.page.active{gap:8px}
+.section-head{min-height:32px}
+.section-head h2{font-size:16px;font-weight:650}
+.section-head p{margin-top:2px}
+.panel-head{padding:12px 14px}
+.detail-block{padding:12px 14px}
+.identity{padding:12px 14px}
+.list-tools{padding:8px 10px}
+.lead-row{padding:10px 12px}
+.comm-tabs{padding:8px 10px 0}
+.thread{padding:10px 11px 4px}
+.composer{margin:10px}
+.dialer{margin:10px;padding:8px}
+.panel,.menu-panel,.work-panel,.email-layout{box-shadow:none}
+.modal{box-shadow:var(--shadow-float)}
+.toast{box-shadow:var(--shadow-float)}
+.sidebar{box-shadow:1px 0 0 rgba(37,38,43,.12)}
+.nav button.active:before{background:var(--violet)}
+.btn.primary,.dialer-actions .call{background:var(--teal)}
+.btn.primary:hover,.dialer-actions .call:hover{background:var(--teal-dark)}
+.tag.blue,.confidence.warn{background:#f3efff;color:#6d28d9}
+.tag.blue{border:1px solid #e8ddff}
+.badge{background:#f3f4f6;color:#4b5563}
+.tag.teal{background:#eef2ff;color:#4338ca}
+.menu-item.active,.menu-item:hover,.mail-row.active,.mail-row:hover{background:#f6f7ff;color:#3730a3}
+.lead-row.selected{background:#f7f7ff;box-shadow:inset 2px 0 var(--teal)}
+.file:hover{border-color:#c7cbff}
+.pitch{border-left-color:var(--violet)}
+input:focus,textarea:focus,select:focus{outline:1px solid #a5b4fc}
 </style>
 </head>
 <body>
